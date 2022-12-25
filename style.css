@@ -1,0 +1,397 @@
+/*
+    Header section CSS
+*/
+
+#rname,#runame,#mail,#pass,#copass{
+    color:red;
+    font-weight: bold;
+    }
+
+.sub{
+    padding-left:160px;
+}
+.logo{
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+.head{
+    height:120px;
+    background-color : black;
+    border-bottom: 3px solid gray;}
+.main{
+    background-color:white;
+    margin-left:475px;
+    width:600px;
+    height:850px;
+    border-style:inset;
+    border-width:15px;
+    border-color:gray;
+}
+.lt{
+    font-size:60px;
+    padding-top:40px;
+}
+.form{
+    padding-top:80px;
+    padding-left:80px;
+}
+.p{
+    padding-top:20px;
+    padding-left:100px;
+}
+.bg{
+    background-color:rgb(200, 200, 200);
+    height:3400px;
+}
+nav{
+    width: 800px;
+    float:left;
+    margin-top:-50px;
+    margin-left:-100px;
+}
+li{ 
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    background-color:rgb(180, 180, 180);
+    margin-left:40px;
+}
+li a{
+    border-radius: 0px;
+}
+a.nav-link{
+    color: black;
+}
+a.nav-link:hover{
+    border-radius: 30px;
+    background-color: rgb(50,50,50);
+    color: white
+}
+input.search{
+    border-radius: 30px;
+}
+.register,.login{
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 7px;
+    margin-top: 60px;
+    margin-right: 30px;
+    background-color:rgb(200,200,200);
+}
+.register:hover,.login:hover{
+    background-color: rgb(50,50,50);
+    color: white
+}
+.login{
+    margin-right: 5px;
+}
+.btn1{
+    border:2px solid rgb(200,200,200);
+    width: 80px;
+    border-radius: 30px;
+    background-color: rgb(200,200,200);
+    margin-left: -50px;
+}
+.btn1:hover{
+    background-color: rgb(50,50,50);
+    color: white
+}
+form{
+    margin-left: 320px;
+}
+.main_bg{
+    position: relative;
+    border-bottom: 3px solid gray;
+}
+
+/*
+    Home page CSS
+*/
+
+.slog{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: black;
+}
+.wel{
+    font-size:70px;
+}
+strong{
+    font-size: 30px;
+}
+.offer{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+.off{
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+.trending{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+.trending-laptop{
+    width: 100%;
+    height: 1600px;
+    background-color: whitesmoke;
+    border-top: 3px solid gray;
+}
+.tl1{
+    height: 400px;
+    background-color: rgb(255,255,255);
+}
+.tl1p{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.tl1d{
+    padding-left: 900px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.tl1b{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+.tl1b:hover{
+    background-color: gray;
+    color: black;
+}
+.tl2{
+    height: 400px;
+    background-color: rgb(230,230,230);
+}
+.tl2p{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.tl2d{
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.tl2b{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+.tl2b:hover{
+    background-color: gray;
+    color: black;
+}
+.tl3{
+    height: 400px;
+    background-color: rgb(255,255,255);
+}
+.tl3p{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.tl3d{
+    padding-left: 900px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.tl3b{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+.tl3b:hover{
+    background-color: gray;
+    color: black;
+}
+.tl4{
+    height: 400px;
+    background-color: rgb(230,230,230);
+    border-bottom: 3px solid gray;
+}
+.tl4p{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.tl4d{
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.tl4b{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+.tl4b:hover{
+    background-color: gray;
+    color: black;
+}
+
+/*
+    Catagory page & product page CSS
+*/
+
+.gaming,.student,.office{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+.gl,.ol,.sl{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(255,255,255);
+    border-top: 3px solid gray;
+}
+.gl,.sl{
+    border-bottom: 3px solid gray;
+}
+.glm,.slm,.olm{
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.gll{
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.glm:hover,.slm:hover,.olm:hover{
+    box-shadow:5px 5px 15px 10px lightgray;
+    text-decoration: none;    
+    color: black;
+}
+.gl1,.gl2,.sl1,.sl2,.ol1,.ol2{
+    margin-left: 80px;
+}
+.glp,.slp,.olp{
+    height: 200px;
+    width: 250px;
+    padding-top: 25px;
+}
+.gld,.sld,.old{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+/*
+    Manage product CSS
+*/
+
+.wel_ad{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.menu{
+    width: 0px;
+}
+.add_product{    
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-top: 7px;
+    background-color:gray;
+}
+.add_product:hover{
+    color: white;
+    background-color: black;
+}
+.del{
+    text-align: center;
+    color:black;
+    background-color: rgb(200, 0, 0);
+    height: 40px;
+}
+.mod{
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+    background-color: rgb(0, 0, 200);
+    height: 40px;
+}
+
+/*
+    Footer Section CSS
+*/
+
+.contact{
+    float: right;
+    color: black;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+    background-image:url(img/cbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 20px;
+}
+.cl{
+    color: black;
+}
+h5{
+    color: rgb(10, 10, 180);
+}
+.detail{
+    padding-left: 200px;
+    padding-top: 40px;
+}
